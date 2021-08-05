@@ -1,0 +1,10 @@
+.libre-franklin{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+#photo,#output{
+    height:250px;
+    width:350px;
+}

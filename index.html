@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>My Selfie App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body class="libre-franklin">
+    <div class="container">
+        <center>
+            <br>
+            <a id="download" download="photo.png"><button class="btn btn-primary">Download</button></a>
+            <br><br>
+            <h1>Voice Selfie App
+
+            </h1>
+            <hr>
+            <h4 class="text-dark">Please press allow as soon as popup comes. After you give a voice command</h4>
+
+            <div class=" text-dark">
+                <h3>Say "take my selfie"</h3>
+                <button class="btn btn-success" onclick="start()">Start</button>
+                <br>
+                <label>Your voice output : </label>
+                <textarea id="result" class="form-control text-dark" rows="4"></textarea>
+                <br>
+                <h4>Your Webcam</h4>
+                <div id="webcam"></div>
+                <h4>Your Selfie Will Display Here</h4>
+                <div id="photo"></div>
+            </div>
+        </center>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
